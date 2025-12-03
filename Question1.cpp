@@ -1,8 +1,8 @@
 /*
  CUSTOM SINGLY LINKED LIST IMPLEMENTATION
  COURSE: DATA STRUCTURES AND ALGORITHMS
- STUDENT: [YOUR NAME]
- DATE: [CURRENT DATE]
+ GROUP: [MAN CSC M24 G12]
+
 
  This program implements a complete singly linked list with memory management features.
  We have included all required operations and design patterns as specified in the assignment.
@@ -25,7 +25,7 @@ public:
 };
 
 /*
- M *EMORY POOL ALLOCATOR EXPLANATION:
+ MEMORY POOL ALLOCATOR EXPLANATION:
  Instead of creating and destroying nodes frequently (which is slow),
  We pre-allocate a pool of nodes and reuse them. This is like having a
  "reserve army" of nodes ready for duty!
@@ -78,7 +78,7 @@ public:
 };
 
 /*
- M *AIN LINKED LIST CLASS:
+ MAIN LINKED LIST CLASS:
  This is where we implement all the linked list operations.
  We use a head pointer (start), tail pointer (end), and size counter.
  */
